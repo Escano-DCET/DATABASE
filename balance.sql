@@ -1,0 +1,1 @@
+SELECT count(*) AS customerCount, SUM(Balance) AS BalanceTotal, AVG(Balance) AS AverageBalance, Min(Balance) AS MinimuMBalance, MAX(Balance) AS MaximunBalance FROM customers;
